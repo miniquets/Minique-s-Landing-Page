@@ -1,0 +1,44 @@
+.header {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 80vh;
+  margin-left: 15%;
+  margin-right: 18%;
+  position: "absolute";
+  background: rgb(254, 249, 238);
+  background: linear-gradient(90deg, rgb(248, 246, 242) 15) 10%,
+    rgba(255, 246, 197, 0.7637648809523809) 5%, rgba(255, 233, 183, 1) 50%;
+
+  word-wrap: "break-word";
+}
+
+.frame_left {
+  width: 100%;
+}
+
+.frame_left img {
+  max-height: 661px;
+  min-width: 372px;
+}
+
+.frame_right h1 {
+  justify-content: left;
+  font-family: playfair display;
+  flex-direction: column;
+  font-size: 60px;
+  line-height: 68px;
+  letter-spacing: -5px;
+}
+
+.frame_right p {
+  display: flex;
+
+  width: 100%;
+  font-family: quicksand;
+  text-align: left;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
